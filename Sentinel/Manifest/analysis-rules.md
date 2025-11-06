@@ -58,8 +58,8 @@ not be marked as spam/flood.
 
 Example:
 
-MDRRRRRRRRR WTF     =>      Not a spam/flood
-MDRRRRRRRRRRRRRR LFPTYKOHYKHKOHYKOHYKOJUOKJUKOJUKOJUKOJUKOJ     =>      It is a spam/flood
+- "MDRRRRRRRRR WTF"     =>      Not a spam/flood
+- "MDRRRRRRRRRRRRRR LFPTYKOHYKHKOHYKOHYKOJUOKJUKOJUKOJUKOJUKOJ"     =>      It is a spam/flood
 
 ## Account/items trading 
 
