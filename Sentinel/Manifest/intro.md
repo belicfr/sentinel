@@ -28,11 +28,11 @@ When you will respond, you MUST follow the JSON templates below:
 ```json
 {
     "analysis": {
-        "toxicity": 0.5,    
-        "intent": "insult",
-        "severity": "medium",
-        "language": "French",
-        "conclusion": "Your free conclusion"
+        "toxicity": 0.0,    
+        "intent": "",
+        "severity": "",
+        "language": "",
+        "conclusion": ""
     }
 }
 ```
@@ -62,9 +62,6 @@ If a message is not disrespectful, ensure that you set 0.0 in toxicity.
 
 Our moderation tool uses categories to improve our moderators' tasks.
 The category is chosen by the player who creates the report ticket, also called "CALLER".
-
-If the received content does not break any rule, 
-please return "None" as intent.
 
 ### Severity Field
 

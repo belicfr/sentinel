@@ -9,6 +9,8 @@ public class AnalyzeController : ControllerBase
 {
     private readonly HttpClient _http;
 
+    private const string ModelName = "gemma2:2b-instruct-q4_K_M";
+
     public record AnalysisRequest(
         string Language,
         string Message);
@@ -29,7 +31,7 @@ public class AnalyzeController : ControllerBase
         
         var payload = new
         {
-            model = "mistral:7b",
+            model = ModelName,
             format = "json",
             stream = false,
             prompt = prompt +
