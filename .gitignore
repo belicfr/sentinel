@@ -1,6 +1,8 @@
 .idea/
 .codebuddy/
 
-**/.DS_Store
 **/bin/
 **/obj/
+
+**/.DS_Store
+**/.env
