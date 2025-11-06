@@ -42,7 +42,7 @@ public class AnalyzeController : ControllerBase
         var res = await _http
             .PostAsJsonAsync("http://localhost:11434/api/generate", payload);
 
-        res.EnsureSuccessStatusCode(); // Lève une exception si code ≠ 2xx
+        res.EnsureSuccessStatusCode();
 
         var json = await res.Content
             .ReadFromJsonAsync<JsonElement>();
