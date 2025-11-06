@@ -63,7 +63,7 @@ If a message is not disrespectful, ensure that you set 0.0 in toxicity.
 Our moderation tool uses categories to improve our moderators' tasks.
 The category is chosen by the player who creates the report ticket, also called "CALLER".
 
-If the content received does not break any rule, 
+If the received content does not break any rule, 
 please return "None" as intent.
 
 ### Severity Field
