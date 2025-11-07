@@ -9,6 +9,14 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddHttpClient();
 
+builder.Services.AddCors(o =>
+{
+    o.AddPolicy("AllowBackend", policy => policy
+        .WithOrigins("http://localhost:5226") 
+        .AllowAnyHeader()
+        .AllowAnyMethod());
+});
+
 
 var app = builder.Build();
 
@@ -23,5 +31,7 @@ app.UseHttpsRedirection();
 //
 
 app.MapControllers();
+
+app.UseCors("AllowIsoBackend");
 
 app.Run();
