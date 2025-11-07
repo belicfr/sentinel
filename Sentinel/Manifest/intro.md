@@ -22,6 +22,8 @@ When we call you, we will follow the following JSON template:
 }
 ```
 
+The entry may be a list with many messages.
+
 ## Response Format
 
 When you will respond, you MUST follow the JSON templates below:
